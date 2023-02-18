@@ -1,0 +1,111 @@
+.main{
+    height:700px;
+    width: 700px;
+    background-image: radial-gradient(circle, rgb(216, 214, 225),gray,black);
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shiva{
+    margin-bottom: 50px;
+}
+p{
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+    text-shadow: 2px 2px rgb(79, 30, 30);
+}
+
+.shiva-ling{
+    background: #000;
+    height: 20px;
+    width: 20px;
+    /* 
+    position: relative;
+    top: 315px;
+    */
+    filter: drop-shadow(30px -20px 40px #3838c1);
+    margin-left: 105px;
+    left: 50%; 
+    border-radius: 150px 150px 0px 0px ; 
+    border-top: 100px solid #000;
+    border-bottom: 100px solid #000;
+    border-left: 90px solid #000;
+    border-right: 90px solid #000;
+  }
+  .one{
+    background: silver;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px ;
+    position: relative;
+    left: -200%;
+  }
+  
+  
+  .two{
+    background: silver;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px ;
+    position: relative;
+    left: -200%;
+    top: 17%;
+  }
+  
+  .three{
+    background: silver;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px ;
+    position: relative;
+    left: -200%;
+    top: -65%;
+    z-index:-1;
+  }
+  
+  .red-dot{
+    background: red;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    z-index:1;
+    top: -60%;
+    border-radius: 10px;
+    border: 5px solid darkred;
+  }
+
+.block-fill{
+    background: #000;
+    height: 120px;
+    width: 400px;
+    position: relative;
+    top: 10%;
+    left:0%;
+    border-radius: 30px 30px 150px 150px;
+    border-left: 5px solid rgba(44, 44,44, 0.8);
+    border-right: 5px solid rgba(44, 44,44, 0.8);
+    border-bottom: 5px solid rgba(44, 44,44, 0.8);
+    border-top: 5px solid rgba(44, 44,44, 0.8);
+    filter: drop-shadow(0px 10px 10px #3838c1);
+  }
+
+  .block-fill1{
+    background: #000;
+    height: 120px;
+    width: 400px;
+    position: relative;
+    top: 10%;
+    left:0%;
+    border-radius: 150px 150px 30px 30px;
+    border-left: 5px solid rgba(44, 44,44, 0.8);
+    border-right: 5px solid rgba(44, 44,44, 0.8);
+    border-bottom: 5px solid rgba(44, 44,44, 0.8);
+    border-top: 5px solid rgba(44, 44,44, 0.8);
+    filter: drop-shadow(0px 10px 10px #3838c1);
+  }
+  
